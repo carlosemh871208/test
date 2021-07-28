@@ -6,13 +6,14 @@
 
 #include<stdlib.h>
 
+#define exit  0u
 #define false 0u
 #define true  1u
 
 int main(void)
 {
     printf("Hello world");
-    return 0u;
+    return exit;
 }
 
 /*******************************************************************
